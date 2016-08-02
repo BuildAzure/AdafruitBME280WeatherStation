@@ -6,15 +6,15 @@ The full writeup and instructions for the [Weather Station V 3.0](https://www.ha
 
 ## Required Hardware
 
-- Raspberry Pi 2 or 3
-- Adafruit BME280 I2C Temperature Humidity Pressure Sensor
+- [Raspberry Pi 2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) or [3](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/)
+- [Adafruit BME280 I2C Temperature Humidity Pressure Sensor](https://www.adafruit.com/products/2652)
 - Breadboard
 - Male / Female Jumper Wires
 
 ## Required Software
 
-- Microsoft Windows 10 IoT Core
-- Microsoft Visual Studio 2015
+- [Microsoft Windows 10 IoT Core](https://developer.microsoft.com/en-us/windows/iot/iotcore)
+- [Microsoft Visual Studio](https://www.visualstudio.com)
 
 ## Dependencies
 
