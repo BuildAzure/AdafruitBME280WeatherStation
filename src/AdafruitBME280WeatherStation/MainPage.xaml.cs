@@ -54,10 +54,10 @@ namespace AdafruitBME280WeatherStation
             var pressure = _bme280.ReadPressure();
             var altitude = _bme280.ReadAltitude(seaLevelPressure);
 
-            Debug.WriteLine("Temp: {0} deg C", temp);
-            Debug.WriteLine("Humidity: {0} %", humidity);
-            Debug.WriteLine("Pressure: {0} Pa", pressure);
-            Debug.WriteLine("Altitude: {0} m", altitude);
+            Debug.WriteLine("Temp: {0} deg C", temp.result);
+            Debug.WriteLine("Humidity: {0} %", humidity.result);
+            Debug.WriteLine("Pressure: {0} Pa", pressure.result);
+            Debug.WriteLine("Altitude: {0} m", altitude.result);
         }
     }
 }
